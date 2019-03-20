@@ -1,8 +1,8 @@
 {
   "main": "./index.js",
   "scripts": {
-    "start": "parcel index.html --port=3000",
-    "build": "parcel build index.html --no-cache"
+    "start": "parcel src/web/index.html --port=3000 --out-dir dist/web",
+    "build": "parcel build src/web/index.html --no-cache --out-dir dist/web"
   },
   "dependencies": {
     "parcel": "^1.12.3"
