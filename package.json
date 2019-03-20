@@ -1,0 +1,16 @@
+{
+  "main": "./index.js",
+  "scripts": {
+    "start": "parcel index.html --port=3000",
+    "build": "parcel build index.html --no-cache"
+  },
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "elm-hot": "^1.0.1",
+    "node-elm-compiler": "^5.0.3",
+    "sass": "^1.17.3"
+  }
+}
